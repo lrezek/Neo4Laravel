@@ -1,4 +1,4 @@
-Allows you to use [Neo4j](http://www.neo4j.org) with [Laravel 4.1](http://www.laravel.com).
+Allows you to use [Neo4j](http://www.neo4j.org) in [Laravel 4.1](http://www.laravel.com).
 
 Installation
 ============
@@ -6,11 +6,11 @@ Installation
 Add `lrezek/neo4jogm` as a requirement to composer.json:
 
 ```javascript
-{
-    "require": {
-       "lrezek/neo4jogm": "dev-master"
+    {
+        "require": {
+           "lrezek/neo4jogm": "dev-master"
+        }
     }
-}
 ```
 
 You may need to add the package dependencies as well:
