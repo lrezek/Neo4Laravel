@@ -1,17 +1,17 @@
-Allows you to use [Neo4j](http://www.neo4j.org) with [Laravel4](http://www.laravel.com).
+Allows you to use [Neo4j](http://www.neo4j.org) with [Laravel 4.1](http://www.laravel.com).
 
 Installation
 ============
 
 Add `lrezek/neo4jogm` as a requirement to composer.json:
 
-
-    {
-        "require": {
-           "lrezek/neo4jogm": "dev-master"
-        }
+```javascript
+{
+    "require": {
+       "lrezek/neo4jogm": "dev-master"
     }
-
+}
+```
 
 You may need to add the package dependencies as well:
 
@@ -74,5 +74,3 @@ use:
 ```php
 $em = App::make('entitymanager);
 ```
-
-And that's it! Feel free to contact me with any questions.
