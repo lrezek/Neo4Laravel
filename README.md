@@ -1,7 +1,10 @@
-Allows you to use [Neo4j](http://www.neo4j.org) in [Laravel 4.1](http://www.laravel.com).
+About
+=====
+
+This is a service provider for Laravel 4.1 that uses [Louis-Philippe Huberdeau's PHP OGM](https://github.com/lphuberdeau/Neo4j-PHP-OGM). It is based off of [Levi Stanley's Neo4jPhpOgm](https://github.com/niterain/Neo4jPhpOgm), but updated to work with Laravel 4.1.
 
 Installation
-============
+=============
 
 Add `lrezek/neo4jogm` as a requirement to `composer.json`:
 
@@ -33,7 +36,7 @@ Once Composer has updated your packages, you'll need to tell Lavarel about the s
 ```
 
 Database Configuration
-=============
+===========
 
 The Neo4J database configuration is autoloaded from `app/config/database.php`. To add a Neo4J connection, simply add the following to the `connections` parameter:
 
@@ -61,7 +64,7 @@ And set the default connection as follows:
 ```
 
 Usage
-=====
+============================
 
 Once this set-up is complete, you can use entities and do queries as shown in [Louis-Philippe Huberdeau's Neo4J PHP OGM](https://github.com/lphuberdeau/Neo4j-PHP-OGM). The only difference is in obtaining a singleton Entity manager. Instead of:
 
