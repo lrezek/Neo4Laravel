@@ -26,7 +26,7 @@ You may need to add the package dependencies as well:
 
 Update your packages with `composer update` or install with `composer install`.
 
-Once Composer has installed or updated your packages you need to register neo4jogm with Laravel. Open up app/config/app.php and find the providers key towards the bottom and add:
+Once Composer has updated your packages, you'll need to tell Lavarel about the service provider. Add the following to the `providers` in app/config/database.php: 
 
 ```php
 'Lrezek\Neo4jogm\Neo4jogmServiceProvider',
@@ -72,5 +72,5 @@ $em = $this->get('hirevoice.neo4j.entity_manager');
 use:
 
 ```php
-$em = App::make('entitymanager);
+$em = App::make('entitymanager');
 ```
