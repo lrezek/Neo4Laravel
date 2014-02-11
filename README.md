@@ -6,9 +6,6 @@ Installation
 Add `lrezek/neo4jogm` as a requirement to composer.json:
 
 ```javascript
-```
-
-```javascript
 {
     "require": {
        "lrezek/neo4jogm": "dev-master"
