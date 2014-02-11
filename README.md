@@ -5,7 +5,7 @@ Installation
 
 Add `lrezek/neo4jogm` as a requirement to composer.json:
 
-``php
+```php
 {
     "require": {
        "lrezek/neo4jogm": "dev-master"
