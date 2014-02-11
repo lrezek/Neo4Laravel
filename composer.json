@@ -1,0 +1,22 @@
+{
+    "name": "lrezek/neo4jogm",
+    "description": "",
+    "authors": [
+        {
+            "name": "Lukas Rezek",
+            "email": "lukas@miratronix.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "everyman/neo4jphp":"dev-master",
+        "hirevoice/neo4jphp-ogm":"dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lrezek\\Neo4jogm": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
