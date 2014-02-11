@@ -5,13 +5,13 @@ Installation
 
 Add `lrezek/neo4jogm` as a requirement to composer.json:
 
-```javascript
-{
-    "require": {
-       "lrezek/neo4jogm": "dev-master"
+
+    {
+        "require": {
+           "lrezek/neo4jogm": "dev-master"
+        }
     }
-}
-```
+
 
 You may need to add the package dependencies as well:
 
@@ -35,7 +35,7 @@ Once Composer has installed or updated your packages you need to register neo4jo
 Database Configuration
 =============
 
-The Neo4J database configuration is autoloaded from app/config/database.php. To add a Neo4J connection, simply add the following to the connections parameter:
+The Neo4J database configuration is autoloaded from app/config/database.php. To add a Neo4J connection, simply add the following to the `connections` parameter:
 
 ```php
 'neo4j' => array(
