@@ -51,12 +51,6 @@ class Neo4jogmServiceProvider extends ServiceProvider {
         \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/ManyToOne.php');
         \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/Property.php');
 
-        //$resource = 'database.';
-        //$default = $this->app['config']->get($resource . 'default');
-        //if (!empty($default) && $default != 'neo4j') {
-        //    $resource = 'neo4jogm::';
-        //}
-
 	$default = $this->app['config']->get('database.default')
         $settings = $this->app['config']->get('database.connections');
 
