@@ -74,3 +74,5 @@ use:
 ```php
 $em = App::make('entitymanager);
 ```
+
+And that's it! Feel free to contact me with any questions.
