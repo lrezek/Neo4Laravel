@@ -44,12 +44,12 @@ class Neo4jogmServiceProvider extends ServiceProvider {
 	public function register()
 	{
 
-        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../workbench/lrezek/neo4jogm/vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/Auto.php');
-        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../workbench/lrezek/neo4jogm/vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/Entity.php');
-        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../workbench/lrezek/neo4jogm/vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/Index.php');
-        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../workbench/lrezek/neo4jogm/vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/ManyToMany.php');
-        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../workbench/lrezek/neo4jogm/vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/ManyToOne.php');
-        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../workbench/lrezek/neo4jogm/vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/Property.php');
+        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/Auto.php');
+        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/Entity.php');
+        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/Index.php');
+        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/ManyToMany.php');
+        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/ManyToOne.php');
+        \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/Property.php');
 
         $resource = 'database.';
         $default = $this->app['config']->get($resource . 'default');
