@@ -6,7 +6,7 @@ This is a service provider for Laravel 4.1 that uses [Louis-Philippe Huberdeau's
 Installation
 =============
 
-Add `lrezek/neo4jogm` as a requirement to `composer.json`:
+Add `lrezek/neo4laravel` as a requirement to `composer.json`:
 
 ```JavaScript
 {
