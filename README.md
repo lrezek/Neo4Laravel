@@ -11,7 +11,7 @@ Add `lrezek/neo4jogm` as a requirement to `composer.json`:
 ```JavaScript
 {
     "require": {
-       "lrezek/neo4jogm": "dev-master"
+       "lrezek/neo4laravel": "dev-master"
     }
 }
 ```
