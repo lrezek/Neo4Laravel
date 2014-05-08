@@ -29,7 +29,7 @@ You may need to add the package dependencies as well:
 
 Update your packages with `composer update` or install with `composer install`.
 
-Once Composer has updated your packages, you'll need to tell Lavarel about the service provider. Add the following to the `providers` in `app/config/database.php`: 
+Once Composer has updated your packages, you'll need to tell Lavarel about the service provider. Add the following to the `providers` in `app/config/app.php`: 
 
 ```PHP
 'Lrezek\Neo4jogm\Neo4jogmServiceProvider',
