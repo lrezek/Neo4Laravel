@@ -16,7 +16,7 @@ Add `lrezek/neo4laravel` as a requirement to `composer.json`:
 }
 ```
 
-You may need to add the package dependencies as well:
+You may need to add the package dependencies as well, depending on your minimum-stability setting:
 
 ```JavaScript
 {
