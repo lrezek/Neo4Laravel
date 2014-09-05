@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Lrezek\\Neo4jogm": "src/"
+            "": "src/"
         }
     },
     "minimum-stability": "stable"
