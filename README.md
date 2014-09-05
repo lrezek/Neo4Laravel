@@ -32,7 +32,7 @@ Update your packages with `composer update` or install with `composer install`.
 Once Composer has updated your packages, you'll need to tell Lavarel about the service provider. Add the following to the `providers` in `app/config/app.php`: 
 
 ```PHP
-'Lrezek\Neo4jogm\Neo4jogmServiceProvider',
+'LRezek\Neo4Laravel\Neo4LaravelServiceProvider',
 ```
 
 Database Configuration
