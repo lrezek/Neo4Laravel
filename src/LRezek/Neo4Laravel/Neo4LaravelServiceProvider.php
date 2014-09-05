@@ -1,4 +1,4 @@
-<?php namespace Lrezek\Neo4jogm;
+<?php namespace LRezek\Neo4Laravel;
 
 use Doctrine\Common\Annotations\AnnotationReader;
 use Doctrine\Common\Annotations\CachedReader;
@@ -7,7 +7,7 @@ use HireVoice\Neo4j\EntityManager;
 
 use Illuminate\Support\ServiceProvider;
 
-class Neo4jogmServiceProvider extends ServiceProvider {
+class Neo4LaravelServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
