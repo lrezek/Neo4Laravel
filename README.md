@@ -77,5 +77,5 @@ Usage
 Once this set-up is complete, you can use entities and do queries as shown in [Louis-Philippe Huberdeau's Neo4J PHP OGM](https://github.com/lphuberdeau/Neo4j-PHP-OGM). To call functions in the entity manager, simply use the facade you defined above. For example:
 
 ```PHP
-OGM::persist()
+OGM::flush()
 ```
