@@ -1,6 +1,7 @@
 {
     "name": "lrezek/neo4laravel",
     "description": "Hire voice OGM provider and facade for Laravel.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Lukas Rezek",
