@@ -32,7 +32,11 @@ class Neo4LaravelServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
-        $this->package('lrezek/neo4laravel');
+        $laravel = app();
+        if (substr($laravel::VERSION, 0, 1) != '5')
+        {
+            $this->package('lrezek/neo4laravel');
+        }
     }
 
 	/**
