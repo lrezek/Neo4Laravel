@@ -61,9 +61,9 @@ class Neo4LaravelServiceProvider extends ServiceProvider {
             \Doctrine\Common\Annotations\AnnotationRegistry::registerFile(app_path() . '/../vendor/hirevoice/neo4jphp-ogm/lib/HireVoice/Neo4j/Annotation/Property.php');
 
             //Get config parameters
-            $default = $app['config']->get('database.default');
+            $connectionName = "neo4j";
             $settings = $app['config']->get('database.connections');
-            $config = (!empty($default) && $default == 'neo4j') ? $settings[$default] : $settings;
+            $config =  $settings[$connectionName];
 
             //If you have a meta cache but not a annotation reader, make a annotation reader out of the meta cache
             if (empty($config['annotation_reader']) && !empty($config['meta_data_cache']))
