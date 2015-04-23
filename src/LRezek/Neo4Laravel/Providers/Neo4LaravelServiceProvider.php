@@ -63,7 +63,7 @@ class Neo4LaravelServiceProvider extends ServiceProvider {
             //Get config parameters
             $connectionName = "neo4j";
             $settings = $app['config']->get('database.connections');
-            $config =  $settings[$connectionName];
+            $config = isset($settings[$connectionName]) ? $settings[$connectionName] : $settings;
 
             //If you have a meta cache but not a annotation reader, make a annotation reader out of the meta cache
             if (empty($config['annotation_reader']) && !empty($config['meta_data_cache']))
