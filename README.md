@@ -65,7 +65,7 @@ The Neo4J database configuration is autoloaded from `app/config/database.php`. T
         )
 ```
 
-And set the default connection as follows:
+You can slo set the default connection as follows:
 
 ```PHP
 'default' => 'neo4j',
