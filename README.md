@@ -1,7 +1,7 @@
 About
 =====
 
-This is a service provider for Laravel 4.1 and 5 (thanks to [hiencreativ](https://github.com/hiencreativ)) that uses [Louis-Philippe Huberdeau's PHP OGM](https://github.com/lphuberdeau/Neo4j-PHP-OGM). It is based off of [Levi Stanley's Neo4jPhpOgm](https://github.com/niterain/Neo4jPhpOgm), but updated to work with Laravel 4.1.
+This is a service provider for Laravel 4.1 and 5 (thanks to [hiencreativ](https://github.com/hiencreativ)) that uses [Louis-Philippe Huberdeau's PHP OGM](https://github.com/lphuberdeau/Neo4j-PHP-OGM). It is based off of [Levi Stanley's Neo4jPhpOgm](https://github.com/niterain/Neo4jPhpOgm), but updated to work with Laravel 4.1 and 5.
 
 Installation
 =============
